@@ -25,7 +25,7 @@ body{
 
 .wrapper .sidebar{
     position: fixed;
-    width:300px;
+    width:25%;
     height:100%;
     background:black;
     padding:30px;
@@ -49,7 +49,7 @@ body{
     color:white;
     display:block;
     font-weight: bold;
-    font-size: x-large;
+    font-size: 1.5vw;
 }
 
 .wrapper .sidebar .social_media{
@@ -57,13 +57,13 @@ body{
     bottom:0;
     left:50%;
     transform: translateX(-50%);
-    display: flex;
+    display:flex;
     padding:15px;
 }
 
 .wrapper .sidebar .social_media a{
-    display:block;
-    width:40px;
+    display:flex;
+    width:2vw;
     height:40px;
     line-height: 40px;
     text-align: center;
@@ -75,14 +75,14 @@ body{
 
 .wrapper .main_content {
     width:100%;
-    margin-left:300px;
+    margin-left:25%;
     padding:50px;
     align-items:center;
 }
 
 .wrapper .gallery_content {
     width:100%;
-    margin-left:300px;
+    margin-left:25%;
     padding:20px;
     align-items:center;
 }
